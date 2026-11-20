@@ -1,0 +1,47 @@
+flowchart LR
+    %% Acteurs du Blog des Lauréats
+    Apprenant["👤<br/><b>Apprenant</b>"]
+    Laureat["👤<br/><b>Lauréat</b>"]
+    Admin["👤<br/><b>Administrateur</b>"]
+
+    %% Système
+    subgraph System ["Blog des Lauréats"]
+        direction TB
+
+        subgraph Consultation ["Consultation des articles"]
+            UC_Liste(["Consulter la liste des articles"])
+            UC_Detail(["Lire le détail d'un article"])
+        end
+
+        subgraph Redaction ["Rédaction des articles"]
+            UC_Rediger(["Rédiger un article"])
+            UC_Publier(["Publier ou dépublier un article"])
+            UC_Modifier(["Modifier un article"])
+            UC_Supprimer(["Supprimer un article"])
+        end
+
+        subgraph Administration ["Administration"]
+            UC_Categories(["Gérer les catégories"])
+            UC_Moderer(["Modérer les articles"])
+        end
+    end
+
+    %% Connexions Apprenant
+    Apprenant --- UC_Liste
+    Apprenant --- UC_Detail
+
+    %% Connexions Lauréat
+    Laureat --- UC_Liste
+    Laureat --- UC_Detail
+    Laureat --- UC_Rediger
+    Laureat --- UC_Publier
+    Laureat --- UC_Modifier
+    Laureat --- UC_Supprimer
+
+    %% Connexions Administrateur
+    Admin --- UC_Categories
+    Admin --- UC_Moderer
+
+    %% Relations d'inclusion (include)
+    UC_Detail -.->|«include»| UC_Liste
+    UC_Publier -.->|«include»| UC_Rediger

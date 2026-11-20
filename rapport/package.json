@@ -1,0 +1,16 @@
+{
+  "name": "rapport-blog-laureats",
+  "version": "1.0.0",
+  "description": "Compilation modulaire du rapport de projet pour le Blog des laureats",
+  "main": "concat-chapitres.js",
+  "scripts": {
+    "build": "node concat-chapitres.js --title \"Rapport de Projet : Blog des Lauréats\""
+  },
+  "keywords": [
+    "solicode",
+    "rapport",
+    "markdown"
+  ],
+  "author": "Solicode Tanger",
+  "license": "ISC"
+}
