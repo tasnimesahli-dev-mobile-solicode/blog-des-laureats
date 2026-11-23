@@ -6,22 +6,30 @@ header: "Solicode N3 - Imitation Project: Blog of Graduates"
 footer: "Supervisor: ES-SARRAJ Fouad | Solicode Tanger"
 style: |
   section {
-    --color: #061635;
+    --color: #263238;
+    color: #263238;
+    font-family: "Aptos", "Segoe UI", sans-serif;
+  }
+
+  section h1,
+  section h2,
+  section h3 {
+    font-family: Georgia, "Times New Roman", serif;
   }
 
   section header,
   section footer {
     font-size: 16px;
-    color: #64748b;
+    color: #69756e;
   }
 
   section.lead h1 {
     background: none;
-    color: #0b4fd8;
+    color: #b6533a;
   }
 
   section.blank {
-    background: #0b1729;
+    background: #183c37;
     color: #ffffff;
   }
 
@@ -39,7 +47,7 @@ style: |
 - **Learner** : Sahli Tasnime
 - **Supervisor** : ES-SARRAJ Fouad
 - **Institution** : Solicode Tanger
-- **Field** : Web Developmentwhy slides on presentayion folder are duplicate d
+- **Field** : Web Development
 - **Competency** : Develop a complete web application
 - **Date** : 2026-11-20
 
