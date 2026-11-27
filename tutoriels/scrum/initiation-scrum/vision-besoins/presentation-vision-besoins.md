@@ -5,9 +5,20 @@ paginate: true
 size: 16:9
 ---
 
+![bg](images/cover-product-vision.png)
+
 # Product Vision & User Stories
 
 ### Comprendre les besoins et préparer le projet
+
+**Projet :** Plateforme d’apprentissage en ligne
+
+**Apprenant :** Tasnime Sahli | **Encadrant :** Es-saraj Fouad 
+
+
+**Centre SoliCode Tanger — OFPPT**
+
+**Promotion 2026**
 
 ---
 
