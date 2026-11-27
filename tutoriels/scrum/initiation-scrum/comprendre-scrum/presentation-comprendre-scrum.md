@@ -9,7 +9,14 @@ paginate: true
 
 # Comprendre Agile et Scrum
 
-### Application à un Blog de publication d'articles
+### Application  un Blog de publication d'articles
+
+**Projet :** Blog  laureats
+
+**Apprenant :** Tasnime Sahli | **Encadrant :** Es-saraj Fouad 
+
+
+**Centre SoliCode Tanger — OFPPT**
 
 ---
 
